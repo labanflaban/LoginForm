@@ -18,7 +18,7 @@ namespace Chatpoc.Controllers
     public class LoginController : ControllerBase
     {
         private readonly AppDbContext _context;
-        private const string SecretKey = "debugging_secret_key_for_a_chatpoc_that_I_made"; 
+        private const string SecretKey = ""; 
         public LoginController(AppDbContext context)
         {
             _context = context;
